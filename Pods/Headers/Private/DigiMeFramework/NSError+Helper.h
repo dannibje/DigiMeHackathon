@@ -1,0 +1,1 @@
+../../../DigiMeFramework/DigiMeFramework/Classes/NSError+Helper.h

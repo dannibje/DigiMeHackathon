@@ -1,0 +1,1 @@
+../../../DigiMeFramework/DigiMeFramework/Classes/NSData+SSExtension.h
