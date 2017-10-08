@@ -19,21 +19,30 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEK-12-Qfl">
                                 <rect key="frame" x="109" y="104" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="mFH-zE-zeA"/>
+                                    <constraint firstAttribute="height" constant="35" id="n6V-ZU-Eno"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.23539169132709503" green="0.11543873697519302" blue="0.25115793943405151" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROCESSING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4A-bq-zob" userLabel="InfoLabel">
                                 <rect key="frame" x="109" y="316" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Wah-MF-lGt"/>
+                                    <constraint firstAttribute="width" constant="156" id="aRD-Vl-qba"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.23539169130000001" green="0.115438737" blue="0.25115793939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VaxAbroad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVy-gE-cVm">
                                 <rect key="frame" x="53" y="140" width="269" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="LpL-Sv-Gz7"/>
+                                    <constraint firstAttribute="height" constant="61" id="MOi-vP-kwh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="52"/>
                                 <color key="textColor" red="0.23539169130000001" green="0.115438737" blue="0.25115793939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -63,14 +72,20 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GETTING DIGI.ME DATA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVK-na-yIl">
                                 <rect key="frame" x="42" y="273" width="290" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="6dM-SY-INm"/>
+                                    <constraint firstAttribute="width" constant="290" id="pyp-oP-bv3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.23539169130000001" green="0.115438737" blue="0.25115793939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" misplaced="YES" text="Find out where you can travel to with your current vaccines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4K3-Na-5s2">
-                                <rect key="frame" x="84" y="278" width="207" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find out where you can travel to with your current vaccines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4K3-Na-5s2">
+                                <rect key="frame" x="84" y="235" width="207" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="TMr-n5-99w"/>
+                                    <constraint firstAttribute="width" constant="207" id="zTU-jy-JPy"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.23539169130000001" green="0.115438737" blue="0.25115793939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -78,6 +93,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.52106726169586182" green="0.24050712585449219" blue="0.68248951435089111" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.98624199628829956" green="0.7796865701675415" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="w4A-bq-zob" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Im-TL-hfG"/>
+                            <constraint firstItem="4K3-Na-5s2" firstAttribute="top" secondItem="pVy-gE-cVm" secondAttribute="bottom" constant="34" id="5Tf-bN-bAW"/>
+                            <constraint firstItem="pVy-gE-cVm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PJh-zI-Vqc"/>
+                            <constraint firstItem="4K3-Na-5s2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ts7-sS-39R"/>
+                            <constraint firstItem="CEK-12-Qfl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="frB-6c-IlJ"/>
+                            <constraint firstItem="IVK-na-yIl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hSh-ei-xfk"/>
+                            <constraint firstItem="pVy-gE-cVm" firstAttribute="top" secondItem="CEK-12-Qfl" secondAttribute="bottom" constant="1" id="hzZ-KK-8K1"/>
+                            <constraint firstItem="CEK-12-Qfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="soA-Bh-tYk"/>
+                            <constraint firstItem="w4A-bq-zob" firstAttribute="top" secondItem="IVK-na-yIl" secondAttribute="bottom" constant="8" id="yMI-2o-ONv"/>
+                            <constraint firstItem="IVK-na-yIl" firstAttribute="top" secondItem="pVy-gE-cVm" secondAttribute="bottom" constant="72" id="yTs-fp-J2v"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
